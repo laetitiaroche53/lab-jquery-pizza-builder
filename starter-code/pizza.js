@@ -61,7 +61,7 @@ var classStatus = [
 
 function updatePrice(classStatus){
   var total = 10;
-  for (var i = 0; i<classStatus.length, i++;){
+  for (var i = 0; i<classStatus.length; i++){
     if(classStatus[i].name.hasClass("active")){
       total += classStatus[i].price;
     }
